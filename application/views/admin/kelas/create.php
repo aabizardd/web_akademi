@@ -51,12 +51,12 @@
                     </div>
                     <div class="card-body">
                         <?php
-            if ($this->session->error) { ?>
+                        if ($this->session->error) { ?>
                         <div class="alert alert-danger">
                             <?= $this->session->error; ?>
                         </div>
                         <?php }
-            ?>
+                        ?>
                         <form method="post" action="<?= base_url(); ?>admin/kelas/tambah">
                             <div class="pl-lg-4">
                                 <div class="row">
